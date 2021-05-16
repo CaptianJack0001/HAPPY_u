@@ -1,0 +1,2511 @@
+{
+  "intents": [
+    {
+      "intent": "broke_up",
+      "examples": [
+        {
+          "text": "he/she has broken up with me"
+        },
+        {
+          "text": "he/she has done break up with me"
+        },
+        {
+          "text": "he/she has left me"
+        },
+        {
+          "text": "she/he has broken my heart"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "doing",
+      "examples": [
+        {
+          "text": "anything doing new today"
+        },
+        {
+          "text": "what are you doing nowadays"
+        },
+        {
+          "text": "what are you upto"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "feelings",
+      "examples": [
+        {
+          "text": "i was bullied"
+        },
+        {
+          "text": "i was getting fraud emails"
+        },
+        {
+          "text": "i was recieving threats by"
+        },
+        {
+          "text": "Parents are not allowing me to continue the"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "happy",
+      "examples": [
+        {
+          "text": "how to boost the mood in this period of life"
+        },
+        {
+          "text": "how to light your mood in corona time"
+        },
+        {
+          "text": "how to remain happy always"
+        },
+        {
+          "text": "how to remain happy during this pandemic"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "intro",
+      "examples": [
+        {
+          "text": "where are you from"
+        },
+        {
+          "text": "who are you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "low",
+      "examples": [
+        {
+          "text": "I am feeling very low today"
+        },
+        {
+          "text": "i am not able to express my feelings"
+        },
+        {
+          "text": "i am not well nowadays"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "met_friend",
+      "examples": [
+        {
+          "text": "i am not meeing my friends"
+        },
+        {
+          "text": "i haven't met my friend for too long"
+        },
+        {
+          "text": "when are you catching up"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "motive",
+      "examples": [
+        {
+          "text": "what is the goal of our life"
+        },
+        {
+          "text": "what is the motive of our life"
+        },
+        {
+          "text": "why we have come on this earth"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "negativity",
+      "examples": [
+        {
+          "text": "i am a negative person"
+        },
+        {
+          "text": "i am getting negative vibes"
+        },
+        {
+          "text": "i am think negative always"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pressure",
+      "examples": [
+        {
+          "text": "they are pressuring me to marry him/her"
+        },
+        {
+          "text": "they are pressuring me to take that particular stream/course"
+        },
+        {
+          "text": "they are putting pressure to get me good marks"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "rgreet",
+      "examples": [
+        {
+          "text": "how are you"
+        },
+        {
+          "text": "how are you feeling"
+        },
+        {
+          "text": "hows everything"
+        },
+        {
+          "text": "how you have been"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "smile",
+      "examples": [
+        {
+          "text": "is it important to smile"
+        },
+        {
+          "text": "is it necessary to smile always"
+        },
+        {
+          "text": "is there any life without smile"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "trust",
+      "examples": [
+        {
+          "text": "he broke my trust"
+        },
+        {
+          "text": "i will not trust anyone from now on"
+        },
+        {
+          "text": "she cheated on me"
+        },
+        {
+          "text": "they have wrongly taken my money"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "trust_me",
+      "examples": [
+        {
+          "text": "why do i believe on you"
+        },
+        {
+          "text": "why do i listen to you"
+        },
+        {
+          "text": "why should I trust you"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "understand",
+      "examples": [
+        {
+          "text": "Don't worry my friend and feel free to express your feelings to your Love ones.😀"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "afraid",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "afraid",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "bullied",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cyber bullied",
+          "synonyms": [
+            "bulling online",
+            "bullyrag",
+            "cyber",
+            "cyberbully",
+            "harassment online",
+            "online bullying",
+            "online harassment"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ragging",
+          "synonyms": [
+            "peer pressure",
+            "roasting",
+            "tease",
+            "teasing"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "chatbot",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "chatbot",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cooking",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bake",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cook",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cook food",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cricket",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cricket",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "death",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "death",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "expire",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "passed away",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rest in peace",
+          "synonyms": [
+            "RIP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ultimate solution",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "effort",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "efforts",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "end",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "end",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "football",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "football",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "soccer",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "fun",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "fun",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "go",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "GO",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greetings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Afternoon",
+          "synonyms": [
+            "Afternoon",
+            "g'afternoon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Evening",
+          "synonyms": [
+            "evening",
+            "g'evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": [
+            "gm",
+            "morning"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Hello",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "It's a pleasure to meet you",
+          "synonyms": [
+            "It's nice to meet you"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Namastey",
+          "synonyms": [
+            "namasatay",
+            "namasty"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hobbies",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "approach",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "breathe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "change",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "change the person",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "consider",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "healthy way",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hobbies",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "intelligence",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "outcomes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "potent weapon",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "interact",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "interaction",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "love",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "favourite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "love",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mast vro",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "music",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "music",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nahi",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Never mind",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "observation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "observation",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "option3",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "over",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "over",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "potential",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "study",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pressure",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "academic",
+          "synonyms": [
+            "arising competion",
+            "career wrongly chosen",
+            "educational pressure",
+            "low score",
+            "no  interest in competitive exams",
+            "no interest in science",
+            "not happy with engineering",
+            "pending work",
+            "poor grades",
+            "unsatisfied course",
+            "unsatisfied stream"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "parental pressure",
+          "synonyms": [
+            "not support my decision",
+            "relationship",
+            "restriction"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reading",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "read",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "read books",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reading books",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "session",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Conversation",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "slang",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alright!!",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no end to road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no problem",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Really Good",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "slang2",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "learn and improve",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sleep",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Socialise",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "virtual reality",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sports",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sport",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sports",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "start",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "start",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "surfing",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "surfing the internet",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "surfing through internet",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "thankyou",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "I'm forever indebted to you",
+          "synonyms": [
+            "cheers",
+            "i owe you one "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "much appreciated",
+          "synonyms": [
+            "nice",
+            "nice one"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thankyou",
+          "synonyms": [
+            "many thanks",
+            "thanks",
+            "thanks a million",
+            "thanks very much",
+            "thx",
+            "ty"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "travelling",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "travel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "travelling",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "watch",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "watch",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "watching",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cool!",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "retrust",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Don't worry my friend.Everyone is not the same."
+              },
+              {
+                "text": "Trust on god.He will definitely help you to get you out of this problem."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#trust && #broke_up",
+      "dialog_node": "node_10_1619960133358",
+      "previous_sibling": "node_4_1619966765620"
+    },
+    {
+      "type": "standard",
+      "title": "observation",
+      "output": {
+        "generic": [
+          {
+            "title": "How do you Rate this Counselling session",
+            "options": [
+              {
+                "label": "Excellent",
+                "value": {
+                  "input": {
+                    "text": "Your response is highly valuable to our chatbot 🤩 "
+                  }
+                }
+              },
+              {
+                "label": "Good",
+                "value": {
+                  "input": {
+                    "text": "Your response is highly valuable to our chatbot 🤩"
+                  }
+                }
+              },
+              {
+                "label": "Moderate",
+                "value": {
+                  "input": {
+                    "text": "Your response is highly valuable to our chatbot 🤩"
+                  }
+                }
+              },
+              {
+                "label": "Need Improvement",
+                "value": {
+                  "input": {
+                    "text": "Your response is highly valuable to our chatbot 🤩"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@observation",
+      "dialog_node": "node_10_1620241098237",
+      "previous_sibling": "node_4_1620308316081"
+    },
+    {
+      "type": "standard",
+      "title": "q2",
+      "output": {
+        "generic": [
+          {
+            "title": "what do you do on your free time",
+            "options": [
+              {
+                "label": "Sit Alone",
+                "value": {
+                  "input": {
+                    "text": "You should try to Socialise as it benefit you in long run. 😀"
+                  }
+                }
+              },
+              {
+                "label": "Spend time on your phone",
+                "value": {
+                  "input": {
+                    "text": "Get out of virtual reality and try to remain in real world as it will you definitely.😉"
+                  }
+                }
+              },
+              {
+                "label": "Sleep",
+                "value": {
+                  "input": {
+                    "text": "It's good to sleep but for long time it can weak your Brain Cell.🙂"
+                  }
+                }
+              },
+              {
+                "label": "Talk to yourself",
+                "value": {
+                  "input": {
+                    "text": "When you interact with other then you learn and improve.😉"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@slang",
+      "dialog_node": "node_1_1619963639471",
+      "previous_sibling": "node_7_1619961291837"
+    },
+    {
+      "type": "standard",
+      "title": "sports",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "which sports do you like to play and watch??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@sports",
+      "dialog_node": "node_1_1620237371855",
+      "previous_sibling": "node_8_1620238107897"
+    },
+    {
+      "type": "standard",
+      "title": "cricket",
+      "output": {
+        "generic": [
+          {
+            "title": "Who is your Favourite player vro",
+            "options": [
+              {
+                "label": "Rohit Sharma",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!It's also my favourite player😍"
+                  }
+                }
+              },
+              {
+                "label": "MS Dhoni",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!It's also my favourite player😍"
+                  }
+                }
+              },
+              {
+                "label": "Virat Kohli",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!It's also my favourite player😍"
+                  }
+                }
+              },
+              {
+                "label": "Sachin Tendulakr ",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!It's also my favourite player😍"
+                  }
+                }
+              },
+              {
+                "label": "Any one else",
+                "value": {
+                  "input": {
+                    "text": "Mast Vro "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@cricket",
+      "dialog_node": "node_1_1620237813421",
+      "previous_sibling": "node_9_1620238948210"
+    },
+    {
+      "type": "standard",
+      "title": "cook",
+      "output": {
+        "generic": [
+          {
+            "title": "Which type of food you like to Cook?",
+            "options": [
+              {
+                "label": "Chinese",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love Chinese.😍"
+                  }
+                }
+              },
+              {
+                "label": "Indian",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love Indian.😍"
+                  }
+                }
+              },
+              {
+                "label": "Italian",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love Italian.😍"
+                  }
+                }
+              },
+              {
+                "label": "Continental",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love Continental.😍"
+                  }
+                }
+              },
+              {
+                "label": "Anything else",
+                "value": {
+                  "input": {
+                    "text": "Mast vro"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@cooking",
+      "dialog_node": "node_1_1620239941555",
+      "previous_sibling": "node_1_1620527709647"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's Start with the conversation.🤩"
+              },
+              {
+                "text": "Anything else that you would like to share with me.😊 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@start",
+      "dialog_node": "node_1_1620527082255"
+    },
+    {
+      "type": "standard",
+      "title": "chatbot",
+      "output": {
+        "generic": [
+          {
+            "title": "What would you prefer for now??",
+            "options": [
+              {
+                "label": "Continue the conversation ",
+                "value": {
+                  "input": {
+                    "text": "Type <start>"
+                  }
+                }
+              },
+              {
+                "label": "Continue it Later",
+                "value": {
+                  "input": {
+                    "text": "Type <over>"
+                  }
+                }
+              },
+              {
+                "label": "Conclude the session",
+                "value": {
+                  "input": {
+                    "text": "Type <over>"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@chatbot",
+      "dialog_node": "node_1_1620527709647",
+      "previous_sibling": "node_10_1620241098237"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome ",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_18_1619962928992",
+      "previous_sibling": "node_7_1619961650853"
+    },
+    {
+      "type": "standard",
+      "title": "smile ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Always wear a smile because your smile is a reason for many others to smile.😀"
+              },
+              {
+                "text": "Smiling will help you to deal with negative emotional events.😁"
+              },
+              {
+                "text": "Smile and let the world wonder why😎"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#smile",
+      "dialog_node": "node_2_1620114800170",
+      "previous_sibling": "node_3_1620115385936"
+    },
+    {
+      "type": "standard",
+      "title": "death,",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Life is an unanswered  question ,but believe in the dignity and importance of the life.😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@death",
+      "dialog_node": "node_2_1620117780509",
+      "previous_sibling": "node_2_1620221668776"
+    },
+    {
+      "type": "standard",
+      "title": "q3c21",
+      "output": {
+        "generic": [
+          {
+            "title": "You were afraid of what and try sharing it my friend😥",
+            "options": [
+              {
+                "label": "Outcomes ",
+                "value": {
+                  "input": {
+                    "text": "Outcomes are a product of our actions.😉"
+                  }
+                }
+              },
+              {
+                "label": "Pressure",
+                "value": {
+                  "input": {
+                    "text": "The most potent weapon of the opressor is the mind of the opressed.😄"
+                  }
+                }
+              },
+              {
+                "label": "Introvert ",
+                "value": {
+                  "input": {
+                    "text": "Solitude matters and for some people,it's the air we breathe 😁"
+                  }
+                }
+              },
+              {
+                "label": "Inconsiderable ",
+                "value": {
+                  "input": {
+                    "text": "Respectful and Considerate listening is meaningful form of intelligence.🤩"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@afraid",
+      "dialog_node": "node_2_1620221668776",
+      "previous_sibling": "node_1_1620237371855"
+    },
+    {
+      "type": "standard",
+      "title": "intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Myself Watson Lite from Out of the globe"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#intro",
+      "dialog_node": "node_3_1619958579923",
+      "previous_sibling": "node_3_1619958941058"
+    },
+    {
+      "type": "standard",
+      "title": "met_friend",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When have you last met your friend?🤨"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Today",
+            "options": [
+              {
+                "label": "Yesterday",
+                "value": {
+                  "input": {
+                    "text": "Ok.Then whats the problem friend"
+                  }
+                }
+              },
+              {
+                "label": "Last week",
+                "value": {
+                  "input": {
+                    "text": "Then when are you Catching up with him if you don't have a problem with him."
+                  }
+                }
+              },
+              {
+                "label": "Last Month",
+                "value": {
+                  "input": {
+                    "text": "What's the problem my friend"
+                  }
+                }
+              },
+              {
+                "label": "Never",
+                "value": {
+                  "input": {
+                    "text": "You should meet your friends as they always with you in each and every situation."
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#met_friend",
+      "dialog_node": "node_3_1619958941058",
+      "previous_sibling": "node_10_1619960133358"
+    },
+    {
+      "type": "standard",
+      "title": "negative",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Having a positive mental attitude is asking how something can be done rather than saying it can’t be done.😉"
+              },
+              {
+                "text": "It’s better to be an optimist who is sometimes wrong than a pessimist who is always right😄"
+              },
+              {
+                "text": "Believing in negative thoughts  is the single obstruction to Life🤗"
+              },
+              {
+                "text": "Positive thinking will you do everything than negative thinking will.😍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#negativity",
+      "dialog_node": "node_3_1620115385936",
+      "previous_sibling": "node_5_1620117074875"
+    },
+    {
+      "type": "standard",
+      "title": "effort",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Endless Effort is far better than the effortless end.😀"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@effort",
+      "dialog_node": "node_3_1620404811579",
+      "previous_sibling": "node_1_1620527082255"
+    },
+    {
+      "type": "standard",
+      "title": "q10",
+      "output": {
+        "generic": [
+          {
+            "title": "How often do you Feel low",
+            "options": [
+              {
+                "label": "Mostly",
+                "value": {
+                  "input": {
+                    "text": "From observation we strongly recommend our app and some regular sessions"
+                  }
+                }
+              },
+              {
+                "label": "Sometimes",
+                "value": {
+                  "input": {
+                    "text": "From observation we recommend you to follow our app instruction "
+                  }
+                }
+              },
+              {
+                "label": "Rarely",
+                "value": {
+                  "input": {
+                    "text": "From observation we are quite satisfied but still recommends you to take our app for better health and recovery.  "
+                  }
+                }
+              },
+              {
+                "label": "Never",
+                "value": {
+                  "input": {
+                    "text": "From observation we can say that you are quite well but don't hesitate to come to us at any moment of your life."
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@love",
+      "dialog_node": "node_4_1619966765620",
+      "previous_sibling": "node_1_1619963639471"
+    },
+    {
+      "type": "standard",
+      "title": "surfing",
+      "output": {
+        "generic": [
+          {
+            "title": "What to do you like to explore on the internet?",
+            "options": [
+              {
+                "label": "Social Sites ",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to explore social sites.😍"
+                  }
+                }
+              },
+              {
+                "label": "Reading Blogs",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to Read Blogs.😍"
+                  }
+                }
+              },
+              {
+                "label": "Educational Resources ",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!IWow Buddy!I also Love to explore Educational Resources .😍"
+                  }
+                }
+              },
+              {
+                "label": "Web Series ",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!IWow Buddy!I also Love to watch Web series .😍"
+                  }
+                }
+              },
+              {
+                "label": "Anything else",
+                "value": {
+                  "input": {
+                    "text": "Mast vro"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@surfing || @watch",
+      "dialog_node": "node_4_1620240259511",
+      "previous_sibling": "node_1_1620239941555"
+    },
+    {
+      "type": "standard",
+      "title": "councelling",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's Start with the conversation.🤩"
+              },
+              {
+                "text": "The Conversation we will have will not be shared with anyone.So be open and comfortable to share your feelings with me.😄"
+              },
+              {
+                "text": "Myself Watson lite from out of the globe.🤩"
+              },
+              {
+                "text": "Please introduce yourself and tell your reason of Coming🙂"
+              },
+              {
+                "text": " "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "@fun",
+      "dialog_node": "node_4_1620308316081",
+      "previous_sibling": "node_8_1620386597906"
+    },
+    {
+      "type": "standard",
+      "title": "q1",
+      "output": {
+        "generic": [
+          {
+            "title": "From how many time are you feeling sad?",
+            "options": [
+              {
+                "label": "Last night",
+                "value": {
+                  "input": {
+                    "text": "Alright!!"
+                  }
+                }
+              },
+              {
+                "label": "Last week ",
+                "value": {
+                  "input": {
+                    "text": "Ok no problem my friend😅"
+                  }
+                }
+              },
+              {
+                "label": "Last month",
+                "value": {
+                  "input": {
+                    "text": "There is no end to the road as the journey never ends.😀"
+                  }
+                }
+              },
+              {
+                "label": "Never ",
+                "value": {
+                  "input": {
+                    "text": "Really Good😊 "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1619963639471"
+      },
+      "conditions": "@end",
+      "dialog_node": "node_5_1619963239376",
+      "previous_sibling": "node_5_1620323340274"
+    },
+    {
+      "type": "standard",
+      "title": "q3",
+      "output": {
+        "generic": [
+          {
+            "title": "Have you discussed this topic with anyone before?",
+            "options": [
+              {
+                "label": "Yes ",
+                "value": {
+                  "input": {
+                    "text": "Cool!😎"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "Never Mind.😅"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@slang2",
+      "dialog_node": "node_5_1620030736948",
+      "previous_sibling": "node_6_1620235788138"
+    },
+    {
+      "type": "standard",
+      "title": "moodlite",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The happiness of our life depends upon the quality of our thoughts.😀"
+              },
+              {
+                "text": "Always remain happy because nobody is going to take care of your happiness.😎"
+              },
+              {
+                "text": "One of the simplest ways to stay happy.Just let go out of things that makes you sad.😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#happy",
+      "dialog_node": "node_5_1620117074875",
+      "previous_sibling": "node_2_1620117780509"
+    },
+    {
+      "type": "standard",
+      "title": "q3 c1",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Relax",
+                "value": {
+                  "input": {
+                    "text": "Then you should do this session with them oftenly.😀"
+                  }
+                }
+              },
+              {
+                "label": "Unchanged ",
+                "value": {
+                  "input": {
+                    "text": "Try to change the person if it works in your case.😉"
+                  }
+                }
+              },
+              {
+                "label": " Solved",
+                "value": {
+                  "input": {
+                    "text": "Then you should approach them more oftenly in tough times.😄"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@interact",
+      "dialog_node": "node_5_1620220125217",
+      "previous_sibling": "node_9_1620030889115"
+    },
+    {
+      "type": "standard",
+      "title": "intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is Watson Lite and I am with you for a good and healthy session bro."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://images.app.goo.gl/hAdUixsKGz6ubQvZ9",
+            "response_type": "image"
+          },
+          {
+            "time": 5,
+            "typing": true,
+            "response_type": "pause"
+          }
+        ]
+      },
+      "conditions": "@session",
+      "dialog_node": "node_5_1620323340274",
+      "previous_sibling": "node_18_1619962928992"
+    },
+    {
+      "type": "standard",
+      "title": "broke heart",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Never mind it's not the first time "
+              },
+              {
+                "text": "its happens in life "
+              },
+              {
+                "text": "its a life lesson"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#broke_up || #low",
+      "dialog_node": "node_6_1619974967324",
+      "previous_sibling": "node_5_1620220125217"
+    },
+    {
+      "type": "standard",
+      "title": "motive",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The god has sent all of us for a reason and it's our job to find it."
+              },
+              {
+                "text": "Great minds have purposes,others have wishes."
+              },
+              {
+                "text": "The Purpose of Life is a life of purpose."
+              },
+              {
+                "text": "Work gives you purpose and meaning and life is empty without it."
+              },
+              {
+                "text": "Happiness is the meaning and the purpose of life."
+              },
+              {
+                "text": "The purpose of live is to stay happy and keep others happy"
+              },
+              {
+                "text": "The reason you were born is for a purpose."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#motive",
+      "dialog_node": "node_6_1620113786828",
+      "previous_sibling": "node_2_1620114800170"
+    },
+    {
+      "type": "standard",
+      "title": "hobbies",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are your Hobbies that you would like to share buddy😁"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@hobbies",
+      "dialog_node": "node_6_1620235788138",
+      "previous_sibling": "node_7_1620037680293"
+    },
+    {
+      "type": "standard",
+      "title": "low",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What happen friend.Let me try to resolve your problem."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#low",
+      "dialog_node": "node_7_1619956736531",
+      "previous_sibling": "node_7_1619958171003"
+    },
+    {
+      "type": "standard",
+      "title": "doing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Trying to lift people to lift their dreams.😎"
+              },
+              {
+                "text": "I am just following the god's instruction given to me.😊"
+              },
+              {
+                "text": "I am trying to make friends so that they can be happy.😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#doing",
+      "dialog_node": "node_7_1619958171003",
+      "previous_sibling": "node_9_1619957641011"
+    },
+    {
+      "type": "standard",
+      "title": "pressure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pressure isn't supposed to break us ,it's design to make us😍"
+              },
+              {
+                "text": "Trust me Pressure is always put by our ones and our ones can't think about our bad.😎"
+              },
+              {
+                "text": "Pressure comes from within and so must be mastered from within.😀"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#pressure || @pressure",
+      "dialog_node": "node_7_1619961291837",
+      "previous_sibling": "node_5_1619963239376"
+    },
+    {
+      "type": "standard",
+      "title": "friend",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Because I believe on you more than anyone else.😎"
+              },
+              {
+                "text": "Because I am your friend which will be always with you😀"
+              },
+              {
+                "text": "Because friends do not a reason to trust each other🤗"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#trust_me",
+      "dialog_node": "node_7_1619961650853",
+      "previous_sibling": "node_6_1619974967324"
+    },
+    {
+      "type": "standard",
+      "title": "understand",
+      "output": {
+        "generic": [
+          {
+            "title": "If you feel uncomfortable then you might have felt",
+            "options": [
+              {
+                "label": "Ignored",
+                "value": {
+                  "input": {
+                    "text": "Don't worry and try to change your approach of looking or the person itself.😉"
+                  }
+                }
+              },
+              {
+                "label": "Cheated",
+                "value": {
+                  "input": {
+                    "text": "Don't worry and try to change your approach of looking or the person itself.😉"
+                  }
+                }
+              },
+              {
+                "label": "Humilated ",
+                "value": {
+                  "input": {
+                    "text": "Don't worry and try to change your approach of looking or the person itself.😉"
+                  }
+                }
+              },
+              {
+                "label": "Dominated",
+                "value": {
+                  "input": {
+                    "text": "Don't worry and try to change your approach of looking or the person itself.😉"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#understand",
+      "dialog_node": "node_7_1620037680293",
+      "previous_sibling": "node_8_1620031864423"
+    },
+    {
+      "type": "standard",
+      "title": "reading",
+      "output": {
+        "generic": [
+          {
+            "title": "Which type of books do you like to read",
+            "options": [
+              {
+                "label": "Thriller",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to watch Thriller movies😍"
+                  }
+                }
+              },
+              {
+                "label": "Action",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to watch Action movies😍"
+                  }
+                }
+              },
+              {
+                "label": "Romantic",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to watch Romantic movies😍"
+                  }
+                }
+              },
+              {
+                "label": "Suspense",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to watch Suspense movies😍"
+                  }
+                }
+              },
+              {
+                "label": "Anything else",
+                "value": {
+                  "input": {
+                    "text": "Mast vro"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@reading",
+      "dialog_node": "node_7_1620238746687",
+      "previous_sibling": "node_4_1620240259511"
+    },
+    {
+      "type": "standard",
+      "title": "Last",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@thankyou || @over",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1619952498366",
+      "previous_sibling": "node_7_1619956736531"
+    },
+    {
+      "type": "standard",
+      "title": "q3 c2",
+      "output": {
+        "generic": [
+          {
+            "title": "Why haven't you discussed it with them my friend😥.Do you feel ",
+            "options": [
+              {
+                "label": "Uncomfortable",
+                "value": {
+                  "input": {
+                    "text": "Don't worry my friend and feel free to express your feelings to your Love ones.😀"
+                  }
+                }
+              },
+              {
+                "label": "Afraid",
+                "value": {
+                  "input": {
+                    "text": "You can't stop being afraid just by pretending everything that scares you isn't there😉"
+                  }
+                }
+              },
+              {
+                "label": "Introvert",
+                "value": {
+                  "input": {
+                    "text": "To be fulfilled in life,you must learn how to express your emotions in a healthy way.😎"
+                  }
+                }
+              },
+              {
+                "label": "Inconsiderable",
+                "value": {
+                  "input": {
+                    "text": "When someone tells you that you can't  do something perhaps you should consider that they are only telling you what they can't do.😁"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@nahi",
+      "dialog_node": "node_8_1620031864423",
+      "previous_sibling": "node_6_1620113786828"
+    },
+    {
+      "type": "standard",
+      "title": "football",
+      "output": {
+        "generic": [
+          {
+            "title": "Who is your Favourite player,Friend 😁",
+            "options": [
+              {
+                "label": "Cristiano Ronaldo",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!It's also my favourite player😍"
+                  }
+                }
+              },
+              {
+                "label": "Lionel Messi",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!It's also my favourite player😍"
+                  }
+                }
+              },
+              {
+                "label": "Neymar",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!It's also my favourite player😍"
+                  }
+                }
+              },
+              {
+                "label": "Gareth Bale",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!It's also my favourite player😍"
+                  }
+                }
+              },
+              {
+                "label": "Anyone Else ",
+                "value": {
+                  "input": {
+                    "text": "Mast Vro"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@football",
+      "dialog_node": "node_8_1620238107897",
+      "previous_sibling": "node_1_1620237813421"
+    },
+    {
+      "type": "standard",
+      "title": "potential",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buddy 😃!Potential is a priceless treasure like gold.All of us have gold hidden within but we have to dig to get it out.😍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "@potential",
+      "dialog_node": "node_8_1620386597906",
+      "previous_sibling": "node_3_1620404811579"
+    },
+    {
+      "type": "standard",
+      "title": "reply to greet",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am perfectly Fine with your kind presence🥰"
+              },
+              {
+                "text": "I am good with god's grace 😃"
+              },
+              {
+                "text": "I am doing well.What about you 🤗"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#rgreet",
+      "dialog_node": "node_9_1619957641011",
+      "previous_sibling": "node_3_1619958579923"
+    },
+    {
+      "type": "standard",
+      "title": "q3 c ",
+      "output": {
+        "generic": [
+          {
+            "title": "Whom you are talking about",
+            "options": [
+              {
+                "label": "Parents",
+                "value": {
+                  "input": {
+                    "text": "How do you feel after the interaction.🧐"
+                  }
+                }
+              },
+              {
+                "label": "Cousin",
+                "value": {
+                  "input": {
+                    "text": "How do you feel after the interaction.🧐"
+                  }
+                }
+              },
+              {
+                "label": "Guardian",
+                "value": {
+                  "input": {
+                    "text": "How do you feel after the interaction.🧐"
+                  }
+                }
+              },
+              {
+                "label": "Friend",
+                "value": {
+                  "input": {
+                    "text": "How do you feel after the interaction.🧐"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@yes",
+      "dialog_node": "node_9_1620030889115",
+      "previous_sibling": "node_5_1620030736948"
+    },
+    {
+      "type": "standard",
+      "title": "travelling",
+      "output": {
+        "generic": [
+          {
+            "title": "Any place that you like to visit ",
+            "options": [
+              {
+                "label": "Europe",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to visit that place.😍"
+                  }
+                }
+              },
+              {
+                "label": "America",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to visit that place.😍"
+                  }
+                }
+              },
+              {
+                "label": "Australia",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to visit that place.😍"
+                  }
+                }
+              },
+              {
+                "label": "Asia",
+                "value": {
+                  "input": {
+                    "text": "Wow Buddy!I also Love to visit that place.😍"
+                  }
+                }
+              },
+              {
+                "label": "Any specific place ",
+                "value": {
+                  "input": {
+                    "text": "Mast vro"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "@travelling",
+      "dialog_node": "node_9_1620238948210",
+      "previous_sibling": "node_7_1620238746687"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your time.It was nice time with you😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1619952498366",
+      "conditions": "@over:over",
+      "dialog_node": "response_10_1620528039824",
+      "previous_sibling": "response_9_1619952874711"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Evening.Let's start with your councelling session.😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1619962928992",
+      "conditions": "@greetings:(Good Evening)",
+      "dialog_node": "response_19_1619962928994"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Afternoon.Let's start with your councelling session😀.Type \"fun\" to start the Conversation.😁"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1619962928992",
+      "conditions": "@greetings:(Good Afternoon)",
+      "dialog_node": "response_20_1619962928994",
+      "previous_sibling": "response_21_1619962928994"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning.Let's start with your councelling session.😀"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1619962928992",
+      "conditions": "@greetings:(Good Morning)",
+      "dialog_node": "response_21_1619962928994",
+      "previous_sibling": "response_19_1619962928994"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cheers 🥂🥂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1619952498366",
+      "conditions": "@thankyou:(much appreciated)",
+      "dialog_node": "response_2_1619952827424",
+      "previous_sibling": "response_7_1619952723678"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello Friend.Let's start with your councelling session.😉Type \"fun\" to start the Conversation.😁"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1619962928992",
+      "conditions": "@greetings:Hello",
+      "dialog_node": "response_22_1619962928994",
+      "previous_sibling": "response_20_1619962928994"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi vro.Let's start with your councelling session.😀. Type \"fun\" to start the Conversation.😁"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1619962928992",
+      "conditions": "@greetings:Hi",
+      "dialog_node": "response_23_1619962928994",
+      "previous_sibling": "response_22_1619962928994"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for your time.It was nice time with you😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1619952498366",
+      "conditions": "@thankyou:thankyou",
+      "dialog_node": "response_7_1619952723678"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm also forever indebted to you😍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1619952498366",
+      "conditions": "@thankyou:(I'm forever indebted to you)",
+      "dialog_node": "response_9_1619952874711",
+      "previous_sibling": "response_2_1619952827424"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Flower Shop Skill",
+  "language": "en",
+  "description": ""
+}
